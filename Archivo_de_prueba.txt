@@ -1,6 +1,10 @@
 Archivo de prueba.
 Estudiantes.
-Alejandro Cardona Jaramillo.
+Alejandro Cardona Jaramillo. - developAlejo
 Mauricio David Correa Hernández.
+<<<<<<< HEAD
 Valeria Guerra Zapata.
 prueba
+=======
+Valeria Guerra Zapata. - developValeria
+>>>>>>> 0223905458a1cfd9d03077a0a1ed5350fc885414
