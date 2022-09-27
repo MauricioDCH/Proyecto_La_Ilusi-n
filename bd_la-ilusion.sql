@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-09-2022 a las 00:08:19
+-- Tiempo de generación: 27-09-2022 a las 22:18:41
 -- Versión del servidor: 10.1.37-MariaDB
 -- Versión de PHP: 7.3.1
 
@@ -53,6 +53,23 @@ INSERT INTO `tbl_productos` (`idproducto`, `id_referencia`, `tipo_producto`, `no
 (2, 1230, 'Pintura', 'Pintura (pintuco)', 120, 50, 50, 60, 'Blanco', 20, 'Buen producto', 0, ''),
 (3, 1231, 'Pintura', 'Pintura (pintuco)', 120, 50, 50, 60, 'Negro', 20, 'Buen producto', 10, '');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_transportadores`
+--
+
+CREATE TABLE `tbl_transportadores` (
+  `id_transportador` int(11) NOT NULL,
+  `nombre_tra` varchar(40) NOT NULL,
+  `apellido_tra` varchar(40) NOT NULL,
+  `telefono` varchar(40) NOT NULL,
+  `tipo_vehiculo` varchar(40) NOT NULL,
+  `color_vehiculo` varchar(30) NOT NULL,
+  `placa` varchar(8) NOT NULL,
+  `capacidad` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Índices para tablas volcadas
 --
@@ -64,6 +81,12 @@ ALTER TABLE `tbl_productos`
   ADD PRIMARY KEY (`idproducto`);
 
 --
+-- Indices de la tabla `tbl_transportadores`
+--
+ALTER TABLE `tbl_transportadores`
+  ADD PRIMARY KEY (`id_transportador`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -72,6 +95,12 @@ ALTER TABLE `tbl_productos`
 --
 ALTER TABLE `tbl_productos`
   MODIFY `idproducto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT de la tabla `tbl_transportadores`
+--
+ALTER TABLE `tbl_transportadores`
+  MODIFY `id_transportador` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
