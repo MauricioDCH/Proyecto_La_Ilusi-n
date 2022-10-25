@@ -1,0 +1,42 @@
+.title{
+	height: 6rem;
+	width:  28rem;
+	text-align: center;
+	margin: 1rem auto;
+
+}
+
+p.font_title{
+	font-family: inherit;
+	font-size: 3rem;
+	font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #dfdfdf;
+
+}
+
+tr:hover {background-color: #dfdfdf;}
+
+table tr td.text_table{
+	font-family: inherit;
+	font-size: 1.3rem;
+	text-align: left;
+}
+
+table tr th.title_table{
+	font-family: inherit;
+	font-size: 1.3rem;
+	text-align: left;
+}
