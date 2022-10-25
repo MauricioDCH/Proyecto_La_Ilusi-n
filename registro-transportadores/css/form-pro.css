@@ -1,0 +1,57 @@
+.title{
+	height: 7rem;
+	width:  33rem;
+	text-align: center;
+	margin: 2rem auto;
+}
+
+
+p.font_title{
+	font-family: inherit;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.form{
+	height: 80rem;
+	width:  50rem;
+	text-align: center;
+	margin:  auto;
+	margin-top: -3rem;
+
+}
+
+
+
+table tr td.text_form{
+	font-family: inherit;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: left;
+}
+
+table tr td.imput_form{
+	font-family: inherit;
+	font-size: 1.8rem;
+	width:  20rem;
+}
+
+input{
+  font-size: 1.8rem;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  border: solid #000;
+}
+
+.btn_registro{
+	text-align: right;
+	height: 8rem;
+}
+
+.style_btn{
+	background-color: green;
+	color: #fff;
+}
