@@ -43,6 +43,10 @@
 					<td class="text_form">Capacidad del vehículo: </td>
 					<td class="imput_form"> <input type="text" name="capacidad" id="capacidad"> </td>
 				</tr>
+				<tr>
+					<td></td>
+					<td class='btn_registro'> <input class="style_btn" type='submit' name='registrar' value='Registrar' /></td>
+				</tr>
 			</table>
 		</form>
 	</div>
